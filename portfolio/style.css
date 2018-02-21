@@ -1,0 +1,480 @@
+﻿/*
+Theme Name: Portfolio
+Theme URI: https://nating.com
+Author: Hannes Sjö
+Author URI:
+Description: one page portfolio
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html{
+  box-sizing: border-box;
+}
+
+body{ margin:0;
+background: white;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Fjalla One', serif;
+  bottom: 40px;
+}
+nav {
+  min-height: 1px;
+}
+img{
+  border-radius: 20px;
+}
+a{
+  display: block;
+}
+.fa.fa-bars{
+  color: white;
+  font-size: 40px;
+}
+
+.container{
+  padding-top: 60px;
+}
+
+.Page1{
+  width: 100%;
+  height: 1px;
+}
+.itnadeco{
+  text-decoration: none;
+}
+
+.h2skills{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.Info_text{
+  margin: 20px;
+  text-align: center;
+font-size: 25px;
+font-family: 'Asar', serif;
+}
+
+.navimg{
+  height: 40px;
+  width: 40px;
+}
+
+.hero{
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+.text{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  transform: translate(0,-50%);
+}
+.Header_text{
+  font-size: 12vw;
+  font-family: 'Fjalla One', sans-serif;
+  text-shadow: 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.Info {
+  padding-top: 80px;
+}
+
+}
+.bg-fadedd {
+background: rgba(0, 0, 0, 0);;
+color: white;
+text-shadow:
+   -1px -1px 0 #000,
+}
+
+.fadiv{
+  margin: auto auto;
+  background: #3498db;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 40px;
+}
+.fa.fa-info{
+  color: white;
+  font-size: 80px;
+  text-shadow: 2px 2px #000;
+}
+ .navbar {
+  font-size:20px;
+  text-align: center;
+  border: 4px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  !important;
+  min-height: 75px;
+}
+.strek{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.8px;
+  background: #7f8c8d;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.left{
+  border-radius: 20px;
+  border: .8px solid #7f8c8d;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.Right{
+  border-radius: 20px;
+  border: .8px solid #7f8c8d;
+  margin-bottom: 20px;
+  padding-top: 20px;
+
+}
+.fadivcode{
+  background: #3498db;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.php{
+  color: white;
+  font-size: 60px;
+  padding-top: 12px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+  font-family: 'Fjalla One', serif;
+}
+
+.HtmlWrap{
+
+float: left;
+}
+
+
+.HtmlTextWrap{
+  float: left;
+  padding-left: 5%;
+
+}
+
+
+.HtmlTextWrap p{
+
+font-size: 25px;
+font-family: 'Asar', serif;
+
+}
+
+.TextHtmlSak{
+  padding-top: 24px;
+}
+
+
+.Fix{
+  padding-bottom: 3px;
+  height: 220px;
+  width: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 20px;
+
+}
+.RubBild{
+  padding-top: 20px;
+}
+
+.BgBild{
+  text-align: center;
+  background: #95a5a6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.BgBildrow2{
+  margin-bottom: 40px;
+}
+
+.ImgTxt{
+ text-align: center;
+ font-family: 'Asar', serif;
+
+}
+.BtnText{
+ font-family: 'Asar', serif;
+
+}
+
+.button{
+  background: #3498db;
+  margin-bottom: 40px;
+}
+input{
+  height: 40px;
+font-family: 'Asar', serif;
+}
+
+input, textarea{
+  text-align: center;
+  margin: 4px auto;
+  border-radius: 8px;
+  border: 2px solid #7f8c8d;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Asar', serif;
+}
+
+.formpost{
+  float: none;
+  margin: 0 auto;
+}
+.fööter{
+  text-align: center;
+}
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.Social .fa{
+  font-size: 50px;
+  padding: 0 14px;
+  text-decoration: none;
+
+  color: black;
+}
+
+.Social{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#BTT {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+}
+.fa.fa-arrow-up{
+  font-size: 40px;
+  color: black;
+  background: #3498db;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 2px;
+}
+.subhover:hover {
+    background: #2980b9;
+}
+.hover:hover {
+    color: #2c3e50;
+    text-decoration: none;
+}
+.blog-nav a{
+  color:#fff;
+}
+
+.blog-nav a:hover{
+  color:#666;
+}
+
+.nav-link {
+  display: inline-block !important;
+  margin-right: 20px;
+  padding: 14px 0;
+  margin-right: 40px;
+  font-family: 'Palanquin Dark', sans-serif;
+
+}
+.navbar-nav {
+  color: white !important;
+}
+
+.post-thumb img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.singlebg{
+  background: #888;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.blog-post-meta{
+  text-align: center;
+}
+.comment-meta{
+  height: 100%;
+  padding-bottom: 8px;
+  border: 1px #333 solid;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.comment-content{
+  height: 100%;
+  background: white;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 8px;
+  border: #333 1px solid;
+  border-radius: 4px;
+}
+.comment-content p{
+margin-left: 8px;
+}
+
+
+.comment-reply-link{
+  background: #999;
+  text-align: center;
+ margin: 6px auto;
+ width: 60px;
+ border-radius: 8px;
+ color: black;
+ border: #333 1px solid;
+}
+.comment-reply-link:hover{
+  color: white;
+  background: #333;
+}
+
+.comment-form-comment textarea{
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 4px;
+   display: block;
+}
+
+.comment-form input{
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 4px;
+   display: block;
+}
+
+.comment-form{
+  text-align: center;
+}
+#submit {
+  text-align: center;
+  width: 30%;
+  background: #999;
+  border: #333 1px solid;
+}
+#submit:hover{
+  color: white;
+  background: #333;
+}
+
+#reply-title{
+  text-align: center;
+  margin: 14px auto;
+  margin-top: 20px;
+}
+
+.SkillWrapper{
+  height: 900px;
+}
+.fadivcode .fa{
+  color: white;
+  font-size: 80px;
+  text-shadow: 2px 2px #000;
+}
+.input{
+  height: 40px;
+font-family: 'Asar', serif;
+}
+
+.input, textarea{
+  text-align: center;
+  margin: 4px auto;
+  border-radius: 8px;
+  border: 2px solid #7f8c8d;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Asar', serif;
+}
+
+.button input{
+  border:2px solid #7f8c8d;
+}
+
+.btn-primary{
+  background: #3498db;
+}
+div.custom-menu-class ul {
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+
+}
+
+.custom-menu-class a{
+  color: white;
+font-family: 'Palanquin Dark', sans-serif;
+margin-right: 40px;
+}
+
+.ErrorDiv{
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 80vh;
+
+}
+.ErrorDiv button{
+  font-size: 30px;
+  border-radius: 5px;
+  height: 100%;
+}
+.ErrorDiv h1{
+}
+.BgBild p{
+  font-family: 'Asar', serif;
+    font-size: 20px;
+}
+.reCap{
+margin:0 auto;
+width: 300px;
+    padding-bottom: 16px;
+}
